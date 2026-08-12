@@ -1,4 +1,4 @@
-# Network Port Scanner CLI v3.0
+# Network Port Scanner v1
 
 A fast, stylish, and powerful Command Line Interface (CLI) network port scanner written in Python. This tool features a dynamic RGB gradient ASCII banner, a clean startup screen with a legal disclaimer, and support for Discord Webhooks.
 
