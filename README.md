@@ -119,18 +119,14 @@ When open ports are discovered and a valid Webhook URL is supplied, the utility 
     }
   ]
 }
-
-Contributing
+   
+## Contributing
 Contributions are welcome! If you want to enhance this tool:
 
 Fork the Project Repository.
-
 Create your Feature Branch (git checkout -b feature/NewFeature).
-
 Commit your Changes (git commit -m 'Add NewFeature').
-
 Push to the Branch (git push origin feature/NewFeature).
-
 Open a Pull Request.
 
 Legal & Ethical Disclaimer
