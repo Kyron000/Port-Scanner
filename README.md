@@ -89,11 +89,17 @@ Note for Linux Users (Ubuntu/Debian/Kali):If your system Python installation lac
 
 ---
 
-# Webhook Payload Format
+## Webhook Payload Format
 
 When open ports are discovered and a valid Webhook URL is supplied, the utility sends an HTTP POST request formatted as a Discord Embed:
 
-"fields": [
+```json
+{
+  "embeds": [
+    {
+      "title": "Port Scan Summary",
+      "color": 3066993,
+      "fields": [
         {
           "name": "Target",
           "value": "`127.0.0.1`",
@@ -113,6 +119,8 @@ When open ports are discovered and a valid Webhook URL is supplied, the utility 
     }
   ]
 }
+
+---
 
 ## Contributing
 
