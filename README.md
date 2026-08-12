@@ -61,7 +61,7 @@ When open ports are detected and a Webhook URL is provided, the scanner dispatch
       { "name": "Details", "value": "• **Port 22**: SSH\n• **Port 80**: HTTP\n• **Port 443**: HTTPS", "inline": false }
     ],
     "footer": {
-      "text": "PORT-SCANNER v3.0 | BY KYRON"
+      "text": "PORT-SCANNER v1 | BY KYRON"
     }
   }]
 }
