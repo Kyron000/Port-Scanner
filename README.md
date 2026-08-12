@@ -89,37 +89,49 @@ Note for Linux Users (Ubuntu/Debian/Kali):If your system Python installation lac
 
 ---
 
-## Webhook Payload Format
-When open ports are discovered and a valid Webhook URL is supplied, the utility sends an HTTP POST request formatted as a Discord Embed
+# Webhook Payload Format
 
-   ```bash
- JSON{
-   "embeds": [
-     {
-       "title": "Port Scan Summary",
-       "color": 3066993,
-       "fields": [
-         {
-           "name": "Target",
-           "value": "`127.0.0.1`",
-           "inline": true
-         },
-         {
-           "name": "Open Ports Found",
-           "value": "`3`",
-           "inline": true
-         },
-         {
-           "name": "Details",
-           "value": "• **Port 22**: SSH\n• **Port 80**: HTTP\n• **Port 443**: HTTPS",
-           "inline": false
-         }
-       ]
-     }
-   ]
- }
+When open ports are discovered and a valid Webhook URL is supplied, the utility sends an HTTP POST request formatted as a Discord Embed:
 
-ContributingContributions are welcome! If you want to enhance this tool:Fork the Project Repository.Create your Feature Branch (git checkout -b feature/NewFeature).Commit your Changes (git commit -m 'Add NewFeature').Push to the Branch (git push origin feature/NewFeature).Open a Pull Request.
+```json
+{
+  "embeds": [
+    {
+      "title": "Port Scan Summary",
+      "color": 3066993,
+      "fields": [
+        {
+          "name": "Target",
+          "value": "`127.0.0.1`",
+          "inline": true
+        },
+        {
+          "name": "Open Ports Found",
+          "value": "`3`",
+          "inline": true
+        },
+        {
+          "name": "Details",
+          "value": "• **Port 22**: SSH\n• **Port 80**: HTTP\n• **Port 443**: HTTPS",
+          "inline": false
+        }
+      ]
+    }
+  ]
+}
 
-## Legal & Ethical Disclaimer
-**This tool is designed strictly for educational purposes, authorized administrative auditing, and network security testing. Scanning target infrastructure without explicit, prior written authorization from the system owner is illegal and unethical. The authors assume no liability and are not responsible for any misuse or damage caused by this software.**
+Contributing
+Contributions are welcome! If you want to enhance this tool:
+
+Fork the Project Repository.
+
+Create your Feature Branch (git checkout -b feature/NewFeature).
+
+Commit your Changes (git commit -m 'Add NewFeature').
+
+Push to the Branch (git push origin feature/NewFeature).
+
+Open a Pull Request.
+
+Legal & Ethical Disclaimer
+This tool is designed strictly for educational purposes, authorized administrative auditing, and network security testing. Scanning target infrastructure without explicit, prior written authorization from the system owner is illegal and unethical. The authors assume no liability and are not responsible for any misuse or damage caused by this software.
