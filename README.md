@@ -81,12 +81,12 @@ Run the application: Bash python main.py
 Note for Linux Users (Ubuntu/Debian/Kali):If your system Python installation lacks tkinter, install it via your package manager:Bashsudo apt update && sudo apt install python3-tk
 
 ---
-
-## Application ConfigurationFieldTypeRequiredDescriptionTarget Host / IPTextYesTarget IPv4 address (e.g., 127.0.0.1) or Domain (e.g., scanme.nmap.org).
-## Scan ModeSelectionYesChoose between Quick Scan (Top 50 ports) or Custom Range.
-## Port RangeNumericOptional*Start and End port numbers (1 - 65535). 
-## Only active in Custom Mode.Webhook URLTextOptionalDiscord or HTTP Webhook URL for posting automated scan reports.
-
+```
+Application ConfigurationFieldTypeRequiredDescriptionTarget Host / IPTextYesTarget IPv4 address (e.g., 127.0.0.1) or Domain (e.g., scanme.nmap.org).
+San ModeSelectionYesChoose between Quick Scan (Top 50 ports) or Custom Range.
+Port RangeNumericOptional*Start and End port numbers (1 - 65535). 
+Only active in Custom Mode.Webhook URLTextOptionalDiscord or HTTP Webhook URL for posting automated scan reports.
+```
 ---
 
 ## Webhook Payload Format
