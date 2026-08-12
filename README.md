@@ -93,6 +93,10 @@ Note for Linux Users (Ubuntu/Debian/Kali):If your system Python installation lac
 
 When open ports are discovered and a valid Webhook URL is supplied, the utility sends an HTTP POST request formatted as a Discord Embed:
 
+## Webhook Payload Format
+
+When open ports are discovered and a valid Webhook URL is supplied, the utility sends an HTTP POST request formatted as a Discord Embed:
+
 ```json
 {
   "embeds": [
@@ -119,8 +123,7 @@ When open ports are discovered and a valid Webhook URL is supplied, the utility 
     }
   ]
 }
-
----
+```
 
 ## Contributing
 
