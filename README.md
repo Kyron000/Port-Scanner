@@ -77,7 +77,7 @@ When executing a **Quick Scan**, the scanner focuses on high-priority network se
    git clone [https://github.com/your-username/network-port-scanner.git](https://github.com/your-username/network-port-scanner.git)
    cd network-port-scanner
    
-Run the application:Bashpython main.py
+Run the application: Bash python main.py
 Note for Linux Users (Ubuntu/Debian/Kali):If your system Python installation lacks tkinter, install it via your package manager:Bashsudo apt update && sudo apt install python3-tk
 
 ---
