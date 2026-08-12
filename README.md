@@ -7,7 +7,7 @@ A fast, stylish, and powerful Command Line Interface (CLI) network port scanner 
 ## Features
 
 - **RGB Gradient ASCII Banner**: Smooth color transition from deep blue to bright cyan per character.
-- **Custom Window and Tab Title**: Automatically sets the title of your Windows Terminal / CMD tab (`PORT-SCANNER v3.0 | BY KYRON`).
+- **Custom Window and Tab Title**: Automatically sets the title of your Windows Terminal / CMD tab (`PORT-SCANNER v1.0 | BY KYRON`).
 - **Interactive Disclaimer**: Integrated startup screen requiring user consent for ethical use.
 - **Clean Interface**: Automatically clears the screen after accepting terms for an uncluttered user experience.
 - **Multi-threading**: Scans multiple ports concurrently for high-speed execution.
@@ -28,13 +28,13 @@ A fast, stylish, and powerful Command Line Interface (CLI) network port scanner 
 ## Installation & Usage
 
 ### 1. Download
-Download the `portscanner.py` file and place it in your working directory.
+Download the `port-scanner.py` file and place it in your working directory.
 
 ### 2. Execution
 Open your terminal (Command Prompt, PowerShell, or Windows Terminal) in the project directory and run:
 
 ```bash
-python portscanner.py
+python port-scanner.py
 ```
 How It Works
 Accept Terms: Upon startup, a legal disclaimer is displayed. Type y or yes to proceed.
