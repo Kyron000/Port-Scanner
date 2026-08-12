@@ -82,9 +82,9 @@ Note for Linux Users (Ubuntu/Debian/Kali):If your system Python installation lac
 
 ---
 ```
-**Application ConfigurationFieldTypeRequiredDescriptionTarget Host / IPTextYesTarget IPv4 address (e.g., 127.0.0.1) or Domain (e.g., scanme.nmap.org).**
+Application ConfigurationFieldTypeRequiredDescriptionTarget Host / IPTextYesTarget IPv4 address (e.g., 127.0.0.1) or Domain (e.g., scanme.nmap.org).
 San ModeSelectionYesChoose between Quick Scan (Top 50 ports) or Custom Range.
-**Port RangeNumericOptional*Start and End port numbers (1 - 65535). **
+Port RangeNumericOptional*Start and End port numbers (1 - 65535). 
 Only active in Custom Mode.Webhook URLTextOptionalDiscord or HTTP Webhook URL for posting automated scan reports.
 ```
 ---
